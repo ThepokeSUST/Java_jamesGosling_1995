@@ -29,6 +29,10 @@ public class typecast {
            int ii= (int)f;
            System.out.println(ii);
            
+           byte mul=30;
+           //mul= mul*mul; this will throw error ,because mul*mul become int (this is called type promotion)...
+           int intmul= mul*mul;
+           System.out.println(intmul);
            
            
          
